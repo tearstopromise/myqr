@@ -5,7 +5,6 @@
     version     = "1.0">
 
 
-    <nameqr try</name>
     
     <content src="index.html"/>
     <icon src="icon.png" width="256" height="256" />
