@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.min.js"></script>
+<script type="text/javascript" src="MWBConfig.js"></script>
+</head>
+<body>
+<form style="width: 100%; text-align: center;">
+        <input type="button" value="Scan Barcode" onclick="scanner.startScanning()" style="font-size: 40px; width: 300px; height: 50px; margin-top: 100px;"/>
+    </form>
+ </div>
+</body>
+<script>
+ $('#reader').html5_qrcode(function(data){
+         alert('hi');
+    },
+    function(error){
+        //show read errors 
+    }, function(videoError){
+        //the video stream could be opened
+    }
+);
+
+</script>
+</html>

@@ -1,0 +1,29 @@
+<?xml version   ="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "gcccs"
+    version     = "1.0">
+
+
+    <nameqr try</name>
+    
+    <content src="index.html"/>
+    <icon src="icon.png" width="256" height="256" />
+    
+    <description>try
+    </description>
+    
+   
+
+    <!-- third party plugins -->
+<gap:plugin name="com.manateeworks.barcodescanner" />
+    <!-- universal preferences -->
+    <preference name="phonegap-version"           value="3.5.0" />         
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <!--<preference name="fullscreen"                 value="true" /> -->          <!-- all: hides the status bar at the top of the screen -->
+  
+   <preference name="fullscreen" value="false" />
+   <preference name="android-windowSoftInputMode" value="stateVisible" />
+   	<preference name="orientation" value="portrait" />
+
+</widget>
